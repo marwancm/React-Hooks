@@ -3,6 +3,7 @@ import State from './hooks/State/State'
 import Effect from './hooks/Effect/Effect'
 import Ref from './hooks/Ref/Ref'
 import Memo from './hooks/Memo/Memo'
+import Callback from './hooks/Callback/Callback'
 
 export default function App() {
 
@@ -12,6 +13,7 @@ export default function App() {
     {/* <Effect /> */}
     {/* <Ref /> */}
     {/* <Memo /> */}
+    <Callback />
     </>
   )
 }
